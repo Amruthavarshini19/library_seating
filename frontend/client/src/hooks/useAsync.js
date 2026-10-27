@@ -1,0 +1,16 @@
+import { useCallback, useEffect, useState } from "react"
+export default function useAsync(fn, deps = []) {
+  const [state, setState] = useState({ data: null, loading: true, error: null })
+  const run = useCallback(async () => {
+    setState((current) => ({ ...current, loading: true, error: null }))
+    try {
+      setState({ data: await fn(), loading: false, error: null })
+    } catch (error) {
+      setState({ data: null, loading: false, error })
+    }
+  }, deps)
+  useEffect(() => {
+    run()
+  }, [run])
+  return { ...state, refetch: run }
+}

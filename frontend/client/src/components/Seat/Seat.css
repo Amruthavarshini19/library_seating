@@ -1,0 +1,4 @@
+.seat { width: 44px; height: 44px; min-height: 44px; padding: 0; border-radius: 8px; font-size: 12px; font-weight: 600; }
+.seat-free { color: var(--ok); background: var(--ok-bg); border: 2px solid #1F6F5C; }
+.seat-taken { color: white; background: #9AA7B8; border: 2px solid #9AA7B8; }
+.seat-mine { color: white; background: var(--primary); border: 2px solid var(--primary); }

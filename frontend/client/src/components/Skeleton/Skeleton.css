@@ -1,0 +1,4 @@
+.skeleton { display: grid; gap: 14px; width: 100%; }
+.skeleton span { display: block; height: 16px; border-radius: 6px; background: var(--track); animation: pulse 1.3s ease-in-out infinite; }
+.skeleton span:nth-child(2n) { width: 74%; }
+@keyframes pulse { 50% { opacity: .45; } }

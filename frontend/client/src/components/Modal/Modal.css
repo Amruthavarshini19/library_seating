@@ -1,0 +1,5 @@
+.modal-backdrop { position: fixed; inset: 0; z-index: 50; background: rgba(18,38,63,.42); display: grid; place-items: center; }
+.modal { width: 460px; padding: 24px; border-radius: 12px; background: white; border: 1px solid var(--border); }
+.modal header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+.modal h2 { margin: 0; font-size: 18px; }
+.modal header button { border: 0; background: transparent; color: var(--muted); }

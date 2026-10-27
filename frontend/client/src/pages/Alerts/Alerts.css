@@ -1,0 +1,1 @@
+.alerts-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:18px;align-items:start}.alerts-layout .data-row{padding:14px 6px}.alert-message{flex:1}.unread .alert-message{font-weight:700}.alerts-layout time{color:var(--muted);font-size:12px}.alerts-layout aside .toggle{border-top:1px solid var(--border)}.alerts-layout aside .toggle:first-of-type{border-top:0}

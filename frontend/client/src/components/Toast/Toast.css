@@ -1,0 +1,2 @@
+.toast { position: fixed; z-index: 100; right: 24px; bottom: 24px; min-width: 300px; padding: 12px 14px; border-radius: 8px; background: var(--primary); color: white; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.toast button { border: 0; background: transparent; color: white; min-height: 44px; }

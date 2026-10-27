@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root {
+  --ink: #12263F; --primary: #12263F; --active: #2F5486; --app-bg: #F4F6F9;
+  --card: #FFFFFF; --border: #DCE2EB; --muted: #45566D; --input-border: #8896AB;
+  --track: #E3E8F0; --ok: #17624F; --ok-bg: #E4F2EE; --warn: #7A4A00;
+  --warn-bg: #FFF0D6; --danger: #A32018; --danger-bg: #FBE3E1;
+  --radius-card: 12px; --radius-control: 8px; --sidebar: 210px;
+}

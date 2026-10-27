@@ -1,0 +1,4 @@
+.chip { display: inline-flex; align-items: center; min-height: 28px; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.chip-ok { color: var(--ok); background: var(--ok-bg); }
+.chip-warn { color: var(--warn); background: var(--warn-bg); }
+.chip-danger { color: var(--danger); background: var(--danger-bg); }

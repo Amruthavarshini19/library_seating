@@ -1,0 +1,3 @@
+.progress { position: relative; height: 9px; background: var(--track); border-radius: 99px; overflow: visible; margin: 12px 0; }
+.progress-fill { display: block; height: 100%; border-radius: inherit; background: var(--primary); }
+.progress-threshold { position: absolute; top: -3px; width: 2px; height: 15px; background: var(--danger); }

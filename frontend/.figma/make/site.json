@@ -1,0 +1,10 @@
+{
+  "description": "Manage library seat reservations, book loans and renewals, fines, and class attendance in one place, with reminders and clear 75% attendance tracking.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
